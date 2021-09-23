@@ -1,6 +1,9 @@
 {
   "private": true,
+  "homepage": "https://mirzaqusyairi.github.io/travelo-app",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -19,6 +22,7 @@
     "@types/react": "17.0.14",
     "@types/react-dom": "17.0.9",
     "autoprefixer": "10.3.1",
+    "gh-pages": "^3.2.3",
     "postcss": "8.3.5",
     "tailwindcss": "2.2.4",
     "typescript": "4.3.5"
